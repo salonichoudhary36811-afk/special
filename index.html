@@ -1,0 +1,249 @@
+<!doctype html>
+<html class="scrollbar-thumb-rose-700 scrollbar-gutter-stable">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+<script src="https://unpkg.com/lucide@latest"></script>
+
+<link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
+
+
+
+</head>
+<body>
+
+<main>
+
+<!--starting-->
+<section class="overflow-hidden px-3 md:px-5 bg-cover relative min-h-screen bg-[url('./Images/back.png')]">
+
+<!--navbar-->
+<nav class="flex items-center justify-between px-5  py-5 md:px-10">
+
+    <div class="font-bold text-4xl text-white">Educax</div>
+
+    <div class="hidden md:flex gap-8 text-white">
+        <a href="home.html">Home</a>
+        <a href="home.html">About</a>
+        <a href="home.html">Course</a>
+        <a href="home.html">Blogs</a>
+        <a href="home.html">Pages</a>
+        <a href="home.html">Contact us</a>
+    </div>
+
+    <div class="flex items-center gap-3">
+    <button class="md:block bg-lime-100 shadow-md px-5 h-10  w-full text-center rounded-xl">
+        Sign up</button>
+
+  <button id="menuBtn" class="md:hidden">
+    <i data-lucide="menu" class="text-white w-7 h-7"></i>
+</button>  
+</div>
+
+</nav>
+<div id="mobileMenu" class="text-white hidden flex p-2 flex-col justify-center gap-5">
+    <a>Home</a>
+    <a>Course</a>
+    <a>Blog</a>
+    <a>Contact</a>
+</div>
+<!--end of navbar-->
+
+<!--hero section-->
+<div class="flex flex-col justify-center items-center gap-6 pt-10">
+<h1 class=" text-4xl md:text-5xl tracking-normal font-bold text-white">Grow Your Skills To Advance <br>Your Career Path</h1>
+<br><p class="text-sm text-white">Incognito mode is a mode that allows users to browse the Internet privately without leaving any traces</p>
+
+<!--buttons-->
+<div class="flex flex-col sm:flex-row gap-3">
+      <button class="md:block bg-lime-100 shadow-md px-5 h-10  w-full sm:w-[200px] text-center rounded-xl">
+        Get Started</button>
+       
+        <button class="md:block border border-white/70 shadow-md px-5 h-10 text-white w-full sm:w-[230px] text-center rounded-xl">
+        watch video</button>
+</div>
+<!--buttons end-->
+
+<!--images wala part-->
+<div class="flex flex-col md:flex-row justify-center items-end gap-4 mt-10">
+
+<div>
+<img src="b1.png" 
+class="w-[220px] h-[350px] object-cover rounded-t-full">
+</div>
+
+<div>
+<img src="b2.png" 
+class="w-[220px] h-[380px] object-cover rounded-t-full">
+</div>
+
+<div>
+<img src="b3.png" 
+class="w-[220px] h-[350px] object-cover rounded-t-full">
+</div>
+
+</div>
+
+</div>
+
+<!--hero-->
+
+</section>
+
+
+<div class="h-20"></div>
+<!--end of this starting-->
+
+
+<!--features section-->
+<div class="flex flex-col md:flex-row justify-center gap-8 px-5">
+
+    <!--1st div-->
+    <div class="flex flex-col gap-8">
+        <h1 class="font-bold text-4xl">Explore<br>Our Categories</h1>
+        <p class="text-sm max-w-md">Community resilience plays a vital role in <br>ensuring that people can adapt to challenges <br>and recover from difficulties together</p>
+        <a href="explore.html" class="bg-black shadow-md rounded-lg p-2 text-base text-white w-full sm:w-50 h-10 block text-center">Explore Categories</a>
+    </div>
+    <!--ending of 1st div-->
+
+    <!--2nd div-->
+    <div class="grid grid-cols-2 md:grid-cols-4  gap-6 lg:gap-12">
+    <div class="flex flex-col items-center gap-3">
+        <!--Data Science-->
+     <div class="size-20 flex justify-center items-center bg-purple-200/60 shadow-md text-center"><i data-lucide="database" class="w-10 h-10" stroke-width="1"></i></div>
+    <p>Data Science</p>
+    </div>
+
+    <!--English-->
+    <div class="flex flex-col items-center gap-3">
+      <div class="size-20 flex justify-center items-center bg-lime-100/60 shadow-md text-center"><i data-lucide="book-open" class="w-10 h-10" stroke-width="1"></i></div>
+    <p>English</p>
+    </div>
+
+
+    <!--Finanace-->
+    <div class="flex flex-col items-center gap-3">
+      <div class="size-20 flex justify-center items-center bg-pink-200/60 shadow-md text-center"><i data-lucide="wallet" class="w-10 h-10" stroke-width="1"></i></div>
+       <p>Finanace</p>
+    </div>
+
+    <!--Content writing-->
+       <div class="flex flex-col items-center gap-3">
+      <div class="size-20 flex justify-center items-center bg-purple-200/60 shadow-md text-center"><i data-lucide="file-text" class="w-10 h-10" stroke-width="1"></i></div>
+    <p>Content Writing</p>
+    </div>
+
+    <!--Development-->
+       <div class="flex flex-col items-center gap-3">
+      <div class="size-20 flex justify-center items-center bg-lime-100/60 shadow-md text-center"><i data-lucide="code-2" class="w-10 h-10" stroke-width="1"></i></div>
+    <p>Development</p>
+    </div>
+
+    <!--Art and Design-->
+       <div class="flex flex-col items-center gap-3">
+      <div class="size-20 flex justify-center items-center bg-pink-200/60 shadow-md text-center"><i data-lucide="palette" class="w-10 h-10" stroke-width="1"></i></div>
+    <p>Art and Design</p>
+    </div>
+
+    <!--Management-->
+       <div class="flex flex-col items-center gap-3">
+      <div class="size-20 flex justify-center items-center bg-purple-200/60 shadow-md text-center"><i data-lucide="users" class="w-10 h-10" stroke-width="1"></i></div>
+    <p>Management</p>
+    </div>
+
+    <!--Buisnesses-->
+       <div class="flex flex-col items-center gap-3">
+      <div class="size-20 flex justify-center items-center bg-lime-100/60 shadow-md text-center"><i data-lucide="briefcase-business" class="w-10 h-10" stroke-width="1"></i></div>
+    <p>Buisnesses</p>
+    </div>
+
+    </div>
+    <!--ending of 2nd div-->
+</div>
+
+<div class="h-20"></div>
+<!--end of the features section-->
+
+
+
+<!--extra section-->
+<section class="flex flex-col md:flex-row gap-10 justify-center px-5">
+    <!--1st part---[Image]-->
+
+    <div>
+        <img src="a1.png" class="min-h-[350px] w-full max-w-[400px] rounded-md shadow-lg">
+    </div>
+
+    <!--2nd part[content]-->
+    <div class="flex flex-col gap-4">
+        <p>About us</p>
+        <h2 class="font-bold text-4xl tracking-wide">We Are Maximizing<br>Your Learning Growth..</h2>
+        <p>Para-" is a prefix meaning "beside, alongside,<br> beyond, abnormal, or subsidiary,"<br> used to modify words in scientific, technical,<br> and general contexts</p>
+     
+        <!--adjacent button-->
+        <div class="grid grid-cols-2 gap-4">
+
+            <!--combo-1-->
+            <div class="flex flex-row gap-1">
+           <i data-lucide="badge-check" class="w-8 h-8 text-gray-700" stroke-width="1"></i></p>
+            <p class="text-sm">Regular sessions</p>
+        </div>
+            <!--..-->
+             <!--combo-1-->
+            <div class="flex flex-row gap-1">
+           <i data-lucide="badge-check" class="w-8 h-8 text-gray-700" stroke-width="1"></i></p>
+            <p class="text-sm">Regards with</p>
+        </div>
+            <!--..-->
+
+             <!--combo-1-->
+            <div class="flex flex-row gap-1">
+           <i data-lucide="badge-check" class="w-8 h-8 text-gray-700" stroke-width="1"></i></p>
+            <p class="text-sm">Seat avalible</p>
+        </div>
+            <!--..-->
+
+             <!--combo-1-->
+            <div class="flex flex-row gap-1">
+           <i data-lucide="badge-check" class="w-8 h-8 text-gray-700" stroke-width="1"></i></p>
+            <p class="text-sm">Extra sessions</p>
+        </div>
+            <!--..-->
+
+        </div>
+        <a href="explore.html" class="bg-black shadow-md rounded-lg p-2 text-base text-white w-full sm:w-50 h-10 block text-center">Explore Categories</a>
+    </div>
+</section>
+<!--end of this section-->
+</main>
+
+
+
+<script>
+lucide.createIcons();
+
+</script>
+
+
+<script>
+
+lucide.createIcons();
+
+document
+.getElementById("menuBtn")
+.onclick = function(){
+
+document
+.getElementById("mobileMenu")
+.classList.toggle("hidden");
+
+}
+
+</script>
+    </body>
+    </html>
